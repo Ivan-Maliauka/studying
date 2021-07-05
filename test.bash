@@ -1,3 +1,5 @@
 #!/bin/bash
 test="test"
-echo "$test"
+ech o
+hellmewp
+"$test"
