@@ -11,5 +11,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@hh2
       - name: check all files in the repository using proselint
         run: /usr/bin/proselint .
