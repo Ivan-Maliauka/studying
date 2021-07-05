@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: check all files in the repository using proselint
-        run: proselint .
+        run: /usr/bin/proselint .
